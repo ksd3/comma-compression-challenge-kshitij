@@ -1,5 +1,11 @@
 # Neural Lossless Compression of VQ-Encoded Driving Video
 
+**2.75x compression ratio** | 3.56 bits/token | 4M param transformer + ANS
+
+[**Download Submission Zip**](https://drive.google.com/file/d/1_9LuFmJ-djx-hMhcWgv7TI3ALrHlK8U6/view?usp=drive_link) | [**Technical Report (PDF)**](report/report.pdf) | [**Changelog**](CHANGELOG.md)
+
+---
+
 ## Overview
 
 This writeup describes my approach to the commaVQ compression challenge: losslessly compress 5,000 segments of VQ-encoded driving video into the smallest possible zip file. The final submission achieves a **2.75x compression ratio** (333 MB zip from 915 MB of token data), using a 4-million parameter frame-level autoregressive transformer paired with ANS entropy coding.
